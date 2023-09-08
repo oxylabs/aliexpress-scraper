@@ -1,6 +1,6 @@
 # AliExpress Scraper API
 
-AliExpress Scraper is a tool designed to collect public product data
+[<u>AliExpress Scraper</u>](https://oxylabs.io/products/scraper-api/ecommerce/aliexpress) is a tool designed to collect public product data
 from AliExpress on a large scale. This short tutorial will show you how
 to scrape AliExpress with Oxylabs’ Scraper API.
 
@@ -15,7 +15,32 @@ AliExpress page.
 This sample showcases how to make an API request and retrieve the HTML
 of AliExpress search results for the keyword “laptop”:
 
+```python
+import requests
+from pprint import pprint
 
+# Structure payload.
+payload = {
+    'source': 'universal_ecommerce',
+    'url': 'https://www.aliexpress.com/w/wholesale-laptop.html?catId=0&initiative_id=SB_20230907055110&SearchText=laptop&spm=a2g0o.best.1000002.0',
+    'user_agent_type': 'desktop',
+    'render': 'html',
+    'geo_location': 'Germany'
+}
+
+# Get response.
+response = requests.request(
+    'POST',
+    'https://realtime.oxylabs.io/v1/queries',
+    auth=('USERNAME', 'PASSWORD'), #Your credentials go here
+    json=payload,
+)
+
+# Instead of response with job status and results url, this will return the
+# JSON response with results.
+pprint(response.json())
+
+```
 
 See the
 [<u>documentation</u>](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/aliexpress)
@@ -23,7 +48,23 @@ for more code samples.
 
 ### Output sample
 
-
+```json
+{
+  "results": [
+    {
+      "content": "<!doctype html>\n<html lang=\"en\">\n<head>
+      ...
+      </script></body>\n</html>\n",
+      "created_at": "2023-09-07 14:04:18",
+      "updated_at": "2023-09-07 14:04:42",
+      "page": 1,
+      "url": "https://www.aliexpress.com/w/wholesale-laptop.html?catId=0&initiative_id=SB_20230907055110&SearchText=laptop&spm=a2g0o.best.1000002.0",
+      "job_id": "7105551359235115009",
+      "status_code": 200
+    }
+  ]
+}
+```
 
 The data harvesting process is significantly easier with Oxylabs’
 AliExpress Scraper API. You can collect details such as pricing,
