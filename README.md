@@ -74,3 +74,5 @@ reviews, product information, and other public data. If you have any
 questions, you can contact us via [<u>live
 chat</u>](https://oxylabs.io/) or
 [<u>email</u>](mailto:support@oxylabs.io).
+
+Also, check this tutorial on [pypi](https://pypi.org/project/ali-express-scraper/)
