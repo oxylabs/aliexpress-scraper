@@ -25,7 +25,7 @@ from pprint import pprint
 
 # Structure payload.
 payload = {
-    'source': 'universal_ecommerce',
+    'source': 'universal',
     'url': 'https://www.aliexpress.com/w/wholesale-laptop.html?catId=0&initiative_id=SB_20230907055110&SearchText=laptop&spm=a2g0o.best.1000002.0',
     'user_agent_type': 'desktop',
     'render': 'html',
