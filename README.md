@@ -11,7 +11,7 @@ to scrape AliExpress with Oxylabs’ Scraper API.
 ## How it works
 
 You can extract AliExpress data by sending a request to our API with
-URLs you want to scrape. Our service will send back the HTML of any
+URLs you want to scrape. Our service will send back the HTML, parsed JSON, or Markdown output of any
 AliExpress page.
 
 ### Python code example
