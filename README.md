@@ -47,7 +47,7 @@ pprint(response.json())
 ```
 
 See the
-[<u>documentation</u>](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/all-domains)
+[<u>documentation</u>](https://developers.oxylabs.io/api-targets/e-commerce/aliexpress)
 for more code samples.
 
 ### Output sample
