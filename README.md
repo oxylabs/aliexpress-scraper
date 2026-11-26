@@ -1,6 +1,6 @@
 # AliExpress Scraper
 
-[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=877&utm_medium=affiliate&groupid=877&utm_content=aliexpress-scraper-github&transaction_id=102f49063ab94276ae8f116d224b67)
+[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=github&utm_medium=referral&utm_content=aliexpress-scraper&utm_campaign=banner&groupid=877)
 
 <p align="left">
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
@@ -10,7 +10,7 @@
   <a href="https://www.youtube.com/@oxylabs"><img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F_YouTube-FF0000?style=for-the-badge" alt="YouTube"></a>
 </p>
 
-[<u>AliExpress Scraper</u>](https://oxylabs.io/products/scraper-api/ecommerce/aliexpress) is a tool designed to collect public product data
+[<u>AliExpress Scraper</u>](https://oxylabs.io/products/scraper-api/ecommerce/aliexpress?utm_source=github&utm_medium=referral&utm_content=aliexpress-scraper&groupid=877) is a tool designed to collect public product data
 from AliExpress on a large scale. This short tutorial will show you how
 to scrape AliExpress with Oxylabs’ Scraper API.
 
@@ -80,7 +80,7 @@ The data harvesting process is significantly easier with Oxylabs’
 AliExpress Scraper API. You can collect details such as pricing,
 reviews, product information, and other public data. If you have any
 questions, you can contact us via [<u>live
-chat</u>](https://oxylabs.io/) or
+chat</u>](https://oxylabs.io/?utm_source=github&utm_medium=referral&utm_content=aliexpress-scraper&groupid=877) or
 [<u>email</u>](mailto:support@oxylabs.io).
 
 Also, check this tutorial on [pypi](https://pypi.org/project/ali-express-scraper/)
